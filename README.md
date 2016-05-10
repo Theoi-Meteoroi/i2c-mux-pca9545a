@@ -5,7 +5,7 @@ So here is what you need to do to get the Device Tree Overlay working for the TC
 
 1) Make sure you are on Raspberry Pi Kernel 4.4 (may require sudo BRANCH=next rpi-update).
 
-2) Add the device tree overlay file for the TCA9545a to the /boot/overlays directory (I will post a link to the i2c-mux-pca9545a.dtbo file that I created).
+2) Add the device tree overlay file for the TCA9545a to the /boot/overlays directory.
 
 3) Add the following line to you /boot/config.txt file:
 

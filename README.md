@@ -3,7 +3,7 @@ RPi Device Tree Overlay for TCA9545a
 
 So here is what you need to do to get the Device Tree Overlay working for the TCA9545:
 
-1) Make sure you are on Raspberry Pi Kernel 4.4 (may require sudo BRANCH=next rpi-update).
+1) Make sure you are on Raspberry Pi Kernel 4.4 or above (may require sudo BRANCH=next rpi-update).
 
 2) Add the device tree overlay file for the TCA9545a to the /boot/overlays directory.
 
